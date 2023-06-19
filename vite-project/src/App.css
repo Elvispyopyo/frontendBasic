@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.images{
+    height: 50%;
+    width: 30%;
+    object-fit: cover;
+}
+
+.images img{
+    height: 100%;
+    width: 100%;
+}
+
+.changeImage{
+    height: 40px;
+    width: 100px;
+    background-color: blanchedalmond;
+    border: none;
+}
